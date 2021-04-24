@@ -1,3 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&family=Roboto+Condensed&display=swap');
+
 body{
-    background-color: green;
+    font-family: 'Roboto Condensed', sans-serif;
+    width:100%;
+}
+
+h1,h2,h3{
+    font-family: 'Amatic SC', cursive;
+    font-size:2rem;
+    color: sienna;
+} 
+
+
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between ;
+    flex-wrap: wrap;
+    align-items: center; 
+    padding:2vw 5vw;
+}
+
+nav{
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+ a{
+    text-decoration: none;
+    color: grey;
+    margin-right: 3vw;
+}
+
+ a:hover{
+    color: rgb(128, 0, 100);
+}
+
+nav a:last-child{
+    margin-right: 0px;
+}
+
+main{
+    width: 70%;
+    margin:0 auto;
+    text-align: center;
+}
+
+.Container_for_all_classes{
+    width: 100%;
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin:0 auto; 
+    text-align: center;
+}
+
+footer{
+    text-align: center;
+    width: 70%;
+    margin:0 auto;   
+}
+
+.contacts_container{
+    width: 80%;
+    margin:0 auto;   
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.project_container{
+    width: 48%;
 }
